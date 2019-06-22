@@ -21,3 +21,5 @@ class Module {
   onBindEvents() {
   }
 }
+
+export default Module;

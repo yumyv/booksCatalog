@@ -28,3 +28,5 @@ class BookApi {
     localStorage.removeItem(id.toString());
   }
 }
+
+export default BookApi;

@@ -3,3 +3,5 @@ const createDOMElem = (elemType, ...elemClass) => {
   elem.classList.add(...elemClass);
   return elem;
 };
+
+export default createDOMElem;

@@ -10,3 +10,5 @@ class ModalWindow {
     this.asElement();
   }
 }
+
+export default ModalWindow;

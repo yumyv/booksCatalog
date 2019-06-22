@@ -1,3 +1,7 @@
+import Module from '../modules/Module';
+import BookApi from '../api/BookApi';
+import Book from '../entities/Book';
+
 class AddBooksOnPage extends Module {
   constructor(selector) {
     super(selector);
@@ -18,3 +22,5 @@ class AddBooksOnPage extends Module {
     });
   }
 }
+
+export default AddBooksOnPage;

@@ -1,3 +1,5 @@
+import createDOMElem from '../createDOMElem';
+
 class Book {
   constructor(book) {
     this.book = book;
@@ -77,3 +79,5 @@ class Book {
     return book;
   }
 }
+
+export default Book;

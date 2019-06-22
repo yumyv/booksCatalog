@@ -1,3 +1,5 @@
+import Module from '../modules/Module';
+
 class FilterForBooks extends Module {
   constructor(selector) {
     super(selector);
@@ -42,3 +44,5 @@ class FilterForBooks extends Module {
     }
   }
 }
+
+export default FilterForBooks;

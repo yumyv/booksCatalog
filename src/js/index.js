@@ -1,3 +1,10 @@
+import AddBooksOnPage from './modules/AddBooksOnPage';
+import BookManager from './modules/BookManager';
+import FilterForBooks from './modules/FilterForBooks';
+import DeleteBook from './modules/DeleteBook';
+import EditBook from './modules/EditBook';
+import ShowPhotos from './modules/ShowPhotos';
+
 class Page {
   constructor() {
     this.modules = [];

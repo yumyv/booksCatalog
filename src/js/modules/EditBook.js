@@ -1,8 +1,9 @@
+import Module from '../modules/Module';
+
 class EditBook extends Module {
   constructor(selector) {
     super(selector);
     this.checkUrl();
-    // this.url = window.location.href.replace(/index.html/i, 'addBook.html');
   }
 
   checkUrl() {
@@ -35,3 +36,5 @@ class EditBook extends Module {
     }
   }
 }
+
+export default EditBook;

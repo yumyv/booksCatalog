@@ -1,3 +1,6 @@
+import ModalWindow from '../modalWindows/ModalWindow';
+import createDOMElem from '../createDOMElem';
+
 class InfoModalWindow extends ModalWindow {
   constructor(text, timeForShow) {
     super(text);
@@ -18,3 +21,5 @@ class InfoModalWindow extends ModalWindow {
     }
   }
 }
+
+export default InfoModalWindow;

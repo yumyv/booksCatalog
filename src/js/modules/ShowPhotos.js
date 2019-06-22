@@ -1,3 +1,8 @@
+import BookApi from '../api/BookApi';
+import Module from '../modules/Module';
+import createDOMElem from '../createDOMElem';
+import PhotosSlider from '../modules/PhotosSlider';
+
 class ShowPhotos extends Module {
   constructor(selector) {
     super(selector);
@@ -63,3 +68,5 @@ class ShowPhotos extends Module {
     }
   }
 }
+
+export default ShowPhotos;

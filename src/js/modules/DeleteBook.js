@@ -1,3 +1,7 @@
+import BookApi from '../api/BookApi';
+import Book from '../entities/Book';
+import Module from '../modules/Module';
+
 class DeleteBook extends Module {
   constructor(selector) {
     super(selector);
@@ -29,3 +33,5 @@ class DeleteBook extends Module {
     }
   }
 }
+
+export default DeleteBook;

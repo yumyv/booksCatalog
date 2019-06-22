@@ -1,3 +1,8 @@
+import BookApi from '../api/BookApi';
+import InfoModalWindow from '../modalWindows/InfoModalWindow';
+import createDOMElem from '../createDOMElem';
+import Module from '../modules/Module';
+
 class BookManager extends Module {
   constructor(selector) {
     super(selector);
@@ -214,3 +219,5 @@ class BookManager extends Module {
     }
   }
 }
+
+export default BookManager;

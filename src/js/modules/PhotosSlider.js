@@ -1,3 +1,5 @@
+import Module from '../modules/Module';
+
 class PhotosSlider extends Module {
   constructor(selector) {
     super(selector);
@@ -69,3 +71,5 @@ class PhotosSlider extends Module {
       });
   }
 }
+
+export default PhotosSlider;

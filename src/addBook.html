@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="./css/normalize.css"/>
+    <link rel="stylesheet" href="./css/reset.css"/>
+    <link rel="stylesheet" href="./css/fonts.css"/>
+    <link rel="stylesheet" href="./css/main.css"/>
+    <title>Books catalog</title>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="logo">
+                <a class="logo__link" href="./index.html">
+                    <img class="logo__img" src="./img/logo.svg" alt="logo"/>
+                </a>
+            </div>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a class="nav__link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="./addBook.html">Add/edit book</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="row">
+            <section class="greeting">
+                <h1 class="greeting__heading">Books catalog</h1>
+                <div class="new-book">
+                    <a class="new-book__btn" href="./addBook.html">Add new book</a>
+                </div>
+            </section>
+        </div>
+    </div>
+</header>
+<section class="add-book">
+    <div class="container">
+        <h2 class="add-book__heading">Add/edit book:</h2>
+        <form class="add-book__form">
+            <div class="row">
+                <label class="add-book__label" for="id">Book id (for edit):</label>
+                <input class="add-book__input" type="text" id="id"/>
+            </div>
+            <div class="row">
+                <label class="add-book__label" for="name">Book name:</label>
+                <input class="add-book__input" type="text" id="name"/>
+            </div>
+            <div class="row">
+                <label class="add-book__label" for="authors">Book authors:</label>
+                <input class="add-book__input" type="text" id="authors"/>
+            </div>
+            <div class="row">
+                <label class="add-book__label" for="date">Date of publishing:</label>
+                <input class="add-book__input" type="date" id="date"/>
+            </div>
+            <div class="row">
+                <label class="add-book__label" for="publisher">Publisher names:</label>
+                <input class="add-book__input" type="text" id="publisher"/>
+            </div>
+            <div class="row">
+                <label class="add-book__label" for="address">Publishing address:</label>
+                <input class="add-book__input" type="text" id="address"/>
+            </div>
+            <div class="row">
+                <label class="add-book__label" for="phone">Publisher's phone:</label>
+                <input class="add-book__input" type="tel" id="phone"/>
+            </div>
+            <div class="row">
+                <label class="add-book__label" for="categories">Book categories:</label>
+                <input class="add-book__input" type="text" id="categories"/>
+            </div>
+            <div class="row">
+                <label class="add-book__label" for="main-photo">Link for main book photo:</label>
+                <input class="add-book__input" type="url" id="main-photo"/>
+            </div>
+            <div class="add-book__more-photo">
+                <span class="add-book__more-photo-btn">One more photo</span>
+            </div>
+            <div class="row">
+                <div class="add-book__btn add-book__btn--add">Add new book</div>
+                <div class="add-book__btn add-book__btn--update">Edit book</div>
+            </div>
+        </form>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="social-links">
+            <a class="social-links__link" href="#">
+                <span class="social-links__pic social-links__pic--fb"></span>
+            </a>
+            <a class="social-links__link" href="#">
+                <span class="social-links__pic social-links__pic--twitter"></span>
+            </a>
+            <a class="social-links__link" href="#">
+                <span class="social-links__pic social-links__pic--linkedin"></span>
+            </a>
+            <a class="social-links__link" href="#">
+                <span class="social-links__pic social-links__pic--google-plus"></span>
+            </a>
+        </div>
+        <div class="logo">
+            <a class="logo__link" href="./index.html">
+                <img class="logo__img" src="./img/logo.svg" alt="logo"/>
+            </a>
+        </div>
+        <p class="footer__copyright">
+            © Copyright 2019
+        </p>
+    </div>
+</footer>
+<script src="./js/createDOMElem.js"></script>
+<script src="js/api/BookApi.js"></script>
+<script src="js/modules/Module.js"></script>
+<script src="js/modules/BookManager.js"></script>
+<script src="js/modalWindows/ModalWindow.js"></script>
+<script src="js/modalWindows/InfoModalWindow.js"></script>
+<script type="text/javascript" src="./js/main.js"></script>
+</body>
+</html>

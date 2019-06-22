@@ -1,0 +1,320 @@
+/*****primary font*****/
+@font-face {
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSans/OpenSans-Regular/OpenSans-Regular-webfont.eot");
+    src: local("OpenSans"), local("OpenSans-Regular"),
+    url("../fonts/OpenSans/OpenSans-Regular/OpenSans-Regular-webfont.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/OpenSans/OpenSans-Regular/OpenSans-Regular-webfont.woff") format("woff"),
+    url("../fonts/OpenSans/OpenSans-Regular/OpenSans-Regular-webfont.ttf") format("truetype"),
+    url("../fonts/OpenSans/OpenSans-Regular/OpenSans-Regular-webfont.svg#open_sansregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSans/OpenSans-Italic/OpenSans-Italic-webfont.eot");
+    src: local("OpenSans Italic"), local("OpenSans-Italic"),
+    url("../fonts/OpenSans/OpenSans-Italic/OpenSans-Italic-webfont.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/OpenSans/OpenSans-Italic/OpenSans-Italic-webfont.woff") format("woff"),
+    url("../fonts/OpenSans/OpenSans-Italic/OpenSans-Italic-webfont.ttf") format("truetype"),
+    url("../fonts/OpenSans/OpenSans-Italic/OpenSans-Italic-webfont.svg#open_sansregular") format("svg");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSans/OpenSans-Light/OpenSans-Light-webfont.eot");
+    src: local("OpenSans Light"), local("OpenSans-Light"),
+    url("../fonts/OpenSans/OpenSans-Light/OpenSans-Light-webfont.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/OpenSans/OpenSans-Light/OpenSans-Light-webfont.woff") format("woff"),
+    url("../fonts/OpenSans/OpenSans-Light/OpenSans-Light-webfont.ttf") format("truetype"),
+    url("../fonts/OpenSans/OpenSans-Light/OpenSans-Light-webfont.svg#open_sansregular") format("svg");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSans/OpenSans-LightItalic/OpenSans-LightItalic-webfont.eot");
+    src: local("OpenSans LightItalic"), local("OpenSans-LightItalic"),
+    url("../fonts/OpenSans/OpenSans-LightItalic/OpenSans-LightItalic-webfont.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/OpenSans/OpenSans-LightItalic/OpenSans-LightItalic-webfont.woff") format("woff"),
+    url("../fonts/OpenSans/OpenSans-LightItalic/OpenSans-LightItalic-webfont.ttf") format("truetype"),
+    url("../fonts/OpenSans/OpenSans-LightItalic/OpenSans-LightItalic-webfont.svg#open_sansregular") format("svg");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSans/OpenSans-SemiBold/OpenSans-SemiBold-webfont.eot");
+    src: local("OpenSans SemiBold"), local("OpenSans-SemiBold"),
+    url("../fonts/OpenSans/OpenSans-SemiBold/OpenSans-SemiBold-webfont.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/OpenSans/OpenSans-SemiBold/OpenSans-SemiBold-webfont.woff") format("woff"),
+    url("../fonts/OpenSans/OpenSans-SemiBold/OpenSans-SemiBold-webfont.ttf") format("truetype"),
+    url("../fonts/OpenSans/OpenSans-SemiBold/OpenSans-SemiBold-webfont.svg#open_sansregular") format("svg");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSans/OpenSans-SemiBoldItalic/OpenSans-SemiBoldItalic-webfont.eot");
+    src: local("OpenSans SemiBoldItalic"), local("OpenSans-SemiBoldItalic"),
+    url("../fonts/OpenSans/OpenSans-SemiBoldItalic/OpenSans-SemiBoldItalic-webfont.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/OpenSans/OpenSans-SemiBoldItalic/OpenSans-SemiBoldItalic-webfont.woff") format("woff"),
+    url("../fonts/OpenSans/OpenSans-SemiBoldItalic/OpenSans-SemiBoldItalic-webfont.ttf") format("truetype"),
+    url("../fonts/OpenSans/OpenSans-SemiBoldItalic/OpenSans-SemiBoldItalic-webfont.svg#open_sansregular") format("svg");
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSans/OpenSans-Bold/OpenSans-Bold-webfont.eot");
+    src: local("OpenSans Bold"), local("OpenSans-Bold"),
+    url("../fonts/OpenSans/OpenSans-Bold/OpenSans-Bold-webfont.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/OpenSans/OpenSans-Bold/OpenSans-Bold-webfont.woff") format("woff"),
+    url("../fonts/OpenSans/OpenSans-Bold/OpenSans-Bold-webfont.ttf") format("truetype"),
+    url("../fonts/OpenSans/OpenSans-Bold/OpenSans-Bold-webfont.svg#open_sansregular") format("svg");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSans/OpenSans-BoldItalic/OpenSans-BoldItalic-webfont.eot");
+    src: local("OpenSans BoldItalic"), local("OpenSans-BoldItalic"),
+    url("../fonts/OpenSans/OpenSans-BoldItalic/OpenSans-BoldItalic-webfont.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/OpenSans/OpenSans-BoldItalic/OpenSans-BoldItalic-webfont.woff") format("woff"),
+    url("../fonts/OpenSans/OpenSans-BoldItalic/OpenSans-BoldItalic-webfont.ttf") format("truetype"),
+    url("../fonts/OpenSans/OpenSans-BoldItalic/OpenSans-BoldItalic-webfont.svg#open_sansregular") format("svg");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSans/OpenSans-ExtraBold/OpenSans-ExtraBold-webfont.eot");
+    src: local("OpenSans ExtraBold"), local("OpenSans-ExtraBold"),
+    url("../fonts/OpenSans/OpenSans-ExtraBold/OpenSans-ExtraBold-webfont.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/OpenSans/OpenSans-ExtraBold/OpenSans-ExtraBold-webfont.woff") format("woff"),
+    url("../fonts/OpenSans/OpenSans-ExtraBold/OpenSans-ExtraBold-webfont.ttf") format("truetype"),
+    url("../fonts/OpenSans/OpenSans-ExtraBold/OpenSans-ExtraBold-webfont.svg#open_sansregular") format("svg");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSans/OpenSans-ExtraBoldItalic/OpenSans-ExtraBoldItalic-webfont.eot");
+    src: local("OpenSans ExtraBoldItalic"), local("OpenSans-ExtraBoldItalic"),
+    url("../fonts/OpenSans/OpenSans-ExtraBoldItalic/OpenSans-ExtraBoldItalic-webfont.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/OpenSans/OpenSans-ExtraBoldItalic/OpenSans-ExtraBoldItalic-webfont.woff") format("woff"),
+    url("../fonts/OpenSans/OpenSans-ExtraBoldItalic/OpenSans-ExtraBoldItalic-webfont.ttf") format("truetype"),
+    url("../fonts/OpenSans/OpenSans-ExtraBoldItalic/OpenSans-ExtraBoldItalic-webfont.svg#open_sansregular") format("svg");
+    font-weight: 800;
+    font-style: italic;
+}
+
+
+/*****secondary font*****/
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway/Raleway-Regular/Raleway-Regular.eot");
+    src: local("Raleway"), local("Raleway-Regular"),
+    url("../fonts/Raleway/Raleway-Regular/Raleway-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Raleway/Raleway-Regular/Raleway-Regular.woff") format("woff"),
+    url("../fonts/Raleway/Raleway-Regular/Raleway-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway/Raleway-Italic/Raleway-Italic.eot");
+    src: local("Raleway Italic"), local("Raleway-Italic"),
+    url("../fonts/Raleway/Raleway-Italic/Raleway-Italic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Raleway/Raleway-Italic/Raleway-Italic.woff") format("woff"),
+    url("../fonts/Raleway/Raleway-Italic/Raleway-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway/Raleway-Thin/Raleway-Thin.eot");
+    src: local("Raleway Thin"), local("Raleway-Thin"),
+    url("../fonts/Raleway/Raleway-Thin/Raleway-Thin.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Raleway/Raleway-Thin/Raleway-Thin.woff") format("woff"),
+    url("../fonts/Raleway/Raleway-Thin/Raleway-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway/Raleway-ThinItalic/Raleway-ThinItalic.eot");
+    src: local("Raleway Thin Italic"), local("Raleway-ThinItalic"),
+    url("../fonts/Raleway/Raleway-ThinItalic/Raleway-ThinItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Raleway/Raleway-ThinItalic/Raleway-ThinItalic.woff") format("woff"),
+    url("../fonts/Raleway/Raleway-ThinItalic/Raleway-ThinItalic.ttf") format("truetype");
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway/Raleway-ExtraLight/Raleway-ExtraLight.eot");
+    src: local("Raleway ExtraLight"), local("Raleway-ExtraLight"),
+    url("../fonts/Raleway/Raleway-ExtraLight/Raleway-ExtraLight.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Raleway/Raleway-ExtraLight/Raleway-ExtraLight.woff") format("woff"),
+    url("../fonts/Raleway/Raleway-ExtraLight/Raleway-ExtraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway/Raleway-ExtraLightItalic/Raleway-ExtraLightItalic.eot");
+    src: local("Raleway ExtraLight Italic"), local("Raleway-ExtraLightItalic"),
+    url("../fonts/Raleway/Raleway-ExtraLightItalic/Raleway-ExtraLightItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Raleway/Raleway-ExtraLightItalic/Raleway-ExtraLightItalic.woff") format("woff"),
+    url("../fonts/Raleway/Raleway-ExtraLightItalic/Raleway-ExtraLightItalic.ttf") format("truetype");
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway/Raleway-Light/Raleway-Light.eot");
+    src: local("Raleway Light"), local("Raleway-Light"),
+    url("../fonts/Raleway/Raleway-Light/Raleway-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Raleway/Raleway-Light/Raleway-Light.woff") format("woff"),
+    url("../fonts/Raleway/Raleway-Light/Raleway-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway/Raleway-LightItalic/Raleway-LightItalic.eot");
+    src: local("Raleway Light Italic"), local("Raleway-LightItalic"),
+    url("../fonts/Raleway/Raleway-LightItalic/Raleway-LightItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Raleway/Raleway-LightItalic/Raleway-LightItalic.woff") format("woff"),
+    url("../fonts/Raleway/Raleway-LightItalic/Raleway-LightItalic.ttf") format("truetype");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway/Raleway-Medium/Raleway-Medium.eot");
+    src: local("Raleway Medium"), local("Raleway-Medium"),
+    url("../fonts/Raleway/Raleway-Medium/Raleway-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Raleway/Raleway-Medium/Raleway-Medium.woff") format("woff"),
+    url("../fonts/Raleway/Raleway-Medium/Raleway-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway/Raleway-MediumItalic/Raleway-MediumItalic.eot");
+    src: local("Raleway Medium Italic"), local("Raleway-MediumItalic"),
+    url("../fonts/Raleway/Raleway-MediumItalic/Raleway-MediumItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Raleway/Raleway-MediumItalic/Raleway-MediumItalic.woff") format("woff"),
+    url("../fonts/Raleway/Raleway-MediumItalic/Raleway-MediumItalic.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway/Raleway-SemiBold/Raleway-SemiBold.eot");
+    src: local("Raleway SemiBold"), local("Raleway-SemiBold"),
+    url("../fonts/Raleway/Raleway-SemiBold/Raleway-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Raleway/Raleway-SemiBold/Raleway-SemiBold.woff") format("woff"),
+    url("../fonts/Raleway/Raleway-SemiBold/Raleway-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway/Raleway-SemiBoldItalic/Raleway-SemiBoldItalic.eot");
+    src: local("Raleway SemiBold Italic"), local("Raleway-SemiBoldItalic"),
+    url("../fonts/Raleway/Raleway-SemiBoldItalic/Raleway-SemiBoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Raleway/Raleway-SemiBoldItalic/Raleway-SemiBoldItalic.woff") format("woff"),
+    url("../fonts/Raleway/Raleway-SemiBoldItalic/Raleway-SemiBoldItalic.ttf") format("truetype");
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway/Raleway-Bold/Raleway-Bold.eot");
+    src: local("Raleway Bold"), local("Raleway-Bold"),
+    url("../fonts/Raleway/Raleway-Bold/Raleway-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Raleway/Raleway-Bold/Raleway-Bold.woff") format("woff"),
+    url("../fonts/Raleway/Raleway-Bold/Raleway-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway/Raleway-BoldItalic/Raleway-BoldItalic.eot");
+    src: local("Raleway Bold Italic"), local("Raleway-BoldItalic"),
+    url("../fonts/Raleway/Raleway-BoldItalic/Raleway-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Raleway/Raleway-BoldItalic/Raleway-BoldItalic.woff") format("woff"),
+    url("../fonts/Raleway/Raleway-BoldItalic/Raleway-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway/Raleway-ExtraBold/Raleway-ExtraBold.eot");
+    src: local("Raleway ExtraBold"), local("Raleway-ExtraBold"),
+    url("../fonts/Raleway/Raleway-ExtraBold/Raleway-ExtraBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Raleway/Raleway-ExtraBold/Raleway-ExtraBold.woff") format("woff"),
+    url("../fonts/Raleway/Raleway-ExtraBold/Raleway-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway/Raleway-ExtraBoldItalic/Raleway-ExtraBoldItalic.eot");
+    src: local("Raleway ExtraBold Italic"), local("Raleway-ExtraBoldItalic"),
+    url("../fonts/Raleway/Raleway-ExtraBoldItalic/Raleway-ExtraBoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Raleway/Raleway-ExtraBoldItalic/Raleway-ExtraBoldItalic.woff") format("woff"),
+    url("../fonts/Raleway/Raleway-ExtraBoldItalic/Raleway-ExtraBoldItalic.ttf") format("truetype");
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway/Raleway-Black/Raleway-Black.eot");
+    src: local("Raleway Black"), local("Raleway-Black"),
+    url("../fonts/Raleway/Raleway-Black/Raleway-Black.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Raleway/Raleway-Black/Raleway-Black.woff") format("woff"),
+    url("../fonts/Raleway/Raleway-Black/Raleway-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway/Raleway-BlackItalic/Raleway-BlackItalic.eot");
+    src: local("Raleway Black Italic"), local("Raleway-BlackItalic"),
+    url("../fonts/Raleway/Raleway-BlackItalic/Raleway-BlackItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Raleway/Raleway-BlackItalic/Raleway-BlackItalic.woff") format("woff"),
+    url("../fonts/Raleway/Raleway-BlackItalic/Raleway-BlackItalic.ttf") format("truetype");
+    font-weight: 900;
+    font-style: italic;
+}
